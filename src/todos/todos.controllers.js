@@ -2,12 +2,12 @@ const { v4 } = require("uuid");
 
 const todoDB = [
   {
-    id: 1,
+    id: 'f073f2eb-548a-4a0e-90d9-02529480acf5',
     title: "This is a title",
     is_completed: false,
   },
   {
-    id: 2,
+    id: 'f1e0ae3b-dee6-42c6-ae95-85260d20424b',
     title: "This is another title",
     is_completed: true,
   },
@@ -20,7 +20,7 @@ const getAllTodos = () => {
 };
 
 const getTodoById = (id) => {
-  const data = todoDB.find((todo) => todo.id === id);
+  const data = todoDB.find((task) => task.id === id);
   return data;
 };
 

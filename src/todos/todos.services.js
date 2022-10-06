@@ -15,6 +15,7 @@ const getOneTodo = (req, res) => {
   }
 };
 
+
 const createNewTodo = (req, res) => {
   const { title } = req.body;
   if (title) {
@@ -26,7 +27,7 @@ const createNewTodo = (req, res) => {
 };
 
 module.exports = {
-    getTodos,
-    getOneTodo,
-    createNewTodo
-}
+  getTodos,
+  getOneTodo,
+  createNewTodo,
+};
