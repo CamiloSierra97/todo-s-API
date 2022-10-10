@@ -15,7 +15,6 @@ const getOneTodo = (req, res) => {
   }
 };
 
-
 const createNewTodo = (req, res) => {
   const { title } = req.body;
   if (title) {

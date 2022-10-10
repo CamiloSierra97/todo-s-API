@@ -11,8 +11,8 @@ const todoDB = [
     title: "This is another title",
     is_completed: true,
   },
-];
 
+];
 const uuid = require("uuid");
 
 const getAllTodos = () => {
